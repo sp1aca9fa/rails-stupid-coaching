@@ -1,0 +1,20 @@
+<div class="col-9 ms-2 mb-5 border-start border-3">
+  <% question = params[:question] %>
+  <p class="ms-2"><%= question.empty? ? "..." : question %></p>
+  <p class="ms-2 fst-italic">--You</p>
+</div>
+
+<div class="col-9 ms-2 mb-3 border-start border-3 bg-warning-subtle">
+  <p class="ms-2">
+    <% if question.last == "?" %>
+      <%= "Silly question, get dressed and go to work!" %>
+    <% elsif question.downcase == "i am going to work" %>
+      <%= "Great!" %>
+    <% else %>
+      <%= "I don't care, get dressed and go to work!" %>
+    <% end %>
+  </p>
+  <p class="ms-2 fst-italic">--Your coach</p>
+</div>
+
+<%= link_to "Ask new question", ask_path %>
