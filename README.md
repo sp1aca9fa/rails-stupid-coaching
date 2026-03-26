@@ -30,10 +30,9 @@ The app follows the MVC pattern:
 
 ## Setup
 
-git clone <your-repo-url>
+git clone https://github.com/sp1aca9fa/rails-stupid-coaching
 cd rails-stupid-coaching
 bundle install
-rails db:create
 rails server
 
 Then open:
