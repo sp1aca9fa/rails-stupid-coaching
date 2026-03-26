@@ -30,13 +30,14 @@ The app follows the MVC pattern:
 
 ## Setup
 
+```bash
 git clone https://github.com/sp1aca9fa/rails-stupid-coaching
 cd rails-stupid-coaching
 bundle install
 rails server
+```
 
-Then open:
-http://localhost:3000/ask
+Open in your browser: http://localhost:3000/ask
 
 ## Learnings
 
