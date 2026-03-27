@@ -48,4 +48,4 @@ Open in your browser: http://localhost:3000/ask
 
 ## Notes
 
-This project was built as part of a bootcamp exercise to practice core Rails fundamentals.
+This project is a solution to a Le Wagon bootcamp coding challenge and it was built to practice core Rails fundamentals.
